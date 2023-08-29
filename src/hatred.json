@@ -112,6 +112,14 @@
       {
         "id": "Scarlet Woman",
         "reason": "If there are 5 or more players alive and the player holding the Lil' Monsta token dies, the Scarlet Woman is given the Lil' Monsta token tonight."
+      },
+      {
+        "id": "Organ Grinder",
+        "reason": "Votes for the Organ Grinder count if the Organ Grinder is babysitting Lil' Monsta."
+      },
+      {
+        "id": "Vizier",
+        "reason": "The Vizier can die by execution if they are babysitting Lil' Monsta."
       }
     ]
   },
@@ -219,7 +227,7 @@
     "hatred": [
       {
         "id": "Lil' Monsta",
-        "reason": "The Marionette neighbors a Minion, not the Demon. The Marionette is not woken to choose who takes the Lil' Monsta token."
+        "reason": "The Marionette neighbors a Minion, not the Demon. The Marionette is not woken to choose who takes the Lil' Monsta token, and does not learn they are the Marionette if they have the Lil' Monsta token."
       },
       {
         "id": "Poppy Grower",
@@ -361,7 +369,7 @@
     "hatred": [
       {
         "id": "Mastermind",
-        "reason": "If the Lleech's host dies by execution (ending the game), the Lleech lives but loses their ability & play for 1 more day. If a player is then executed their team loses, or at dusk the Lleech's team loses."
+        "reason": "If the Mastermind is alive and the Lleech's host dies by execution, the Lleech lives but loses their ability. "
       },
       {
         "id": "Slayer",
@@ -370,6 +378,93 @@
       {
         "id": "Heretic",
         "reason": "If the Lleech has poisoned the Heretic then the Lleech dies, the Heretic remains poisoned."
+      }
+    ]
+  },
+  {
+    "id": "Organ Grinder",
+    "hatred": [
+      {
+        "id": "Butler",
+        "reason": "If the Organ Grinder is causing eyes closed voting, the Butler may raise their hand to vote but their vote is only counted if their master voted too."
+      },
+      {
+        "id": "Flowergirl",
+        "reason": "If players' eyes were closed during the nominations, the Flowergirl learns how many times the Demon voted."
+      },
+      {
+        "id": "Minstrel",
+        "reason": "Only 1 jinxed character can be in play. Evil players start knowing which player and character it is."
+      },
+      {
+        "id": "Preacher",
+        "reason": "Only 1 jinxed character can be in play. Evil players start knowing which player and character it is."
+      }
+    ]
+  },
+  {
+    "id": "Vizier",
+    "hatred": [
+      {
+        "id": "Investigator",
+        "reason": "If the Investigator learns that the Vizier is in play, the existence of the Vizier is not announced by the Storyteller."
+      },
+      {
+        "id": "Preacher",
+        "reason": "If the Vizier loses their ability, they learn this. If the Vizier is executed while they have their ability, their team wins."
+      },
+      {
+        "id": "Courtier",
+        "reason": "If the Vizier loses their ability, they learn this. If the Vizier is executed while they have their ability, their team wins."
+      },
+      {
+        "id": "Alchemist",
+        "reason": "If the Alchemist has the Vizier ability, they may only choose to execute immediately if three or more players voted, regardless of those players' alignment."
+      },
+      {
+        "id": "Magician",
+        "reason": "Only 1 jinxed character can be in play. Evil players start knowing which player and character it is."
+      },
+      {
+        "id": "Fearmonger",
+        "reason": "The Vizier wakes with the Fearmonger, learns who they choose and cannot choose to immediately execute that player."
+      }
+    ]
+  },
+  {
+    "id": "Plague Doctor",
+    "hatred": [
+      {
+        "id": "Baron",
+        "reason": "If the Storyteller gains the Baron ability, up to two players become out-of-play Outsiders."
+      },
+      {
+        "id": "Boomdandy",
+        "reason": "If the Plague Doctor is executed and the Storyteller would gain the Boomdandy ability, the Boomdandy ability triggers immediately."
+      },
+      {
+        "id": "Evil Twin",
+        "reason": "The Storyteller cannot gain the Evil Twin ability if the Plague Doctor dies."
+      },
+      {
+        "id": "Fearmonger",
+        "reason": "If the Plague Doctor dies, a living Minion gains the Fearmonger ability in addition to their own ability, and learns this."
+      },
+      {
+        "id": "Goblin",
+        "reason": "If the Plague Doctor dies, a living Minion gains the Goblin ability in addition to their own ability, and learns this."
+      },
+      {
+        "id": "Marionette",
+        "reason": "If the Demon has a neighbour who is alive and a Townsfolk or Outsider when the Plague Doctor dies, that player becomes an evil Marionette. If there is already an extra evil player, this does not happen."
+      },
+      {
+        "id": "Scarlet Woman",
+        "reason": "If the Plague Doctor dies, a living Minion gains the Scarlet Woman ability in addition to their own ability, and learns this."
+      },
+      {
+        "id": "Spy",
+        "reason": "If the Plague Doctor dies, a living Minion gains the Spy ability in addition to their own ability, and learns this."
       }
     ]
   }
