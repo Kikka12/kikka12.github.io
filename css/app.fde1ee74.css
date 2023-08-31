@@ -12624,7 +12624,7 @@ ul li .ability[data-v-7d0ee60b] {
     display: none
 }
 
-#vote[data-v-61c04ab4] {
+#vote[data-v-65b04cc4] {
     position: absolute;
     width: 20%;
     z-index: 20;
@@ -12638,38 +12638,38 @@ ul li .ability[data-v-7d0ee60b] {
     text-shadow: 0 1px 2px #000, 0 -1px 2px #000, 1px 0 2px #000, -1px 0 2px #000
 }
 
-#vote .mark .button[data-v-61c04ab4] {
+#vote .mark .button[data-v-65b04cc4] {
     font-size: 75%;
     margin: 0
 }
 
-#vote[data-v-61c04ab4]:after {
+#vote[data-v-65b04cc4]:after {
     content: " ";
     padding-bottom: 100%;
     display: block
 }
 
-#vote em[data-v-61c04ab4] {
+#vote em[data-v-65b04cc4] {
     color: #ce0100;
     font-style: normal;
     font-weight: 700
 }
 
-#vote em.blue[data-v-61c04ab4] {
+#vote em.blue[data-v-65b04cc4] {
     color: #1f65ff
 }
 
-#vote svg[data-v-61c04ab4] {
+#vote svg[data-v-65b04cc4] {
     cursor: pointer
 }
 
-#vote svg:hover path[data-v-61c04ab4] {
+#vote svg:hover path[data-v-65b04cc4] {
     fill: url(#demon);
     stroke-width: 30px;
     stroke: #fff
 }
 
-@-webkit-keyframes arrow-cw-data-v-61c04ab4 {
+@-webkit-keyframes arrow-cw-data-v-65b04cc4 {
     0% {
         opacity: 0;
         transform: rotate(-180deg)
@@ -12681,7 +12681,7 @@ ul li .ability[data-v-7d0ee60b] {
     }
 }
 
-@keyframes arrow-cw-data-v-61c04ab4 {
+@keyframes arrow-cw-data-v-65b04cc4 {
     0% {
         opacity: 0;
         transform: rotate(-180deg)
@@ -12693,7 +12693,7 @@ ul li .ability[data-v-7d0ee60b] {
     }
 }
 
-@-webkit-keyframes arrow-ccw-data-v-61c04ab4 {
+@-webkit-keyframes arrow-ccw-data-v-65b04cc4 {
     0% {
         opacity: 0;
         transform: rotate(180deg)
@@ -12705,7 +12705,7 @@ ul li .ability[data-v-7d0ee60b] {
     }
 }
 
-@keyframes arrow-ccw-data-v-61c04ab4 {
+@keyframes arrow-ccw-data-v-65b04cc4 {
     0% {
         opacity: 0;
         transform: rotate(180deg)
@@ -12717,7 +12717,7 @@ ul li .ability[data-v-7d0ee60b] {
     }
 }
 
-.arrows[data-v-61c04ab4] {
+.arrows[data-v-65b04cc4] {
     position: absolute;
     display: flex;
     height: 150%;
@@ -12725,14 +12725,14 @@ ul li .ability[data-v-7d0ee60b] {
     pointer-events: none
 }
 
-.arrows span[data-v-61c04ab4] {
+.arrows span[data-v-65b04cc4] {
     position: absolute;
     width: 100%;
     height: 100%;
     transition: transform 2.9s ease-in-out
 }
 
-.arrows span[data-v-61c04ab4]:before {
+.arrows span[data-v-65b04cc4]:before {
     content: " ";
     width: 100%;
     height: 100%;
@@ -12744,19 +12744,19 @@ ul li .ability[data-v-7d0ee60b] {
     filter: drop-shadow(0 0 3px #000)
 }
 
-.arrows .nominator[data-v-61c04ab4]:before {
+.arrows .nominator[data-v-65b04cc4]:before {
     background-image: url(../img/clock-small.f6dd3d5b.png);
-    -webkit-animation: arrow-ccw-data-v-61c04ab4 1s ease-out;
-    animation: arrow-ccw-data-v-61c04ab4 1s ease-out
+    -webkit-animation: arrow-ccw-data-v-65b04cc4 1s ease-out;
+    animation: arrow-ccw-data-v-65b04cc4 1s ease-out
 }
 
-.arrows .nominee[data-v-61c04ab4]:before {
+.arrows .nominee[data-v-65b04cc4]:before {
     background-image: url(../img/clock-big.3a6a413c.png);
-    -webkit-animation: arrow-cw-data-v-61c04ab4 1s ease-out;
-    animation: arrow-cw-data-v-61c04ab4 1s ease-out
+    -webkit-animation: arrow-cw-data-v-65b04cc4 1s ease-out;
+    animation: arrow-cw-data-v-65b04cc4 1s ease-out
 }
 
-@-webkit-keyframes countdown-data-v-61c04ab4 {
+@-webkit-keyframes countdown-data-v-65b04cc4 {
     0% {
         transform: scale(1.5);
         opacity: 0;
@@ -12782,7 +12782,7 @@ ul li .ability[data-v-7d0ee60b] {
     }
 }
 
-@keyframes countdown-data-v-61c04ab4 {
+@keyframes countdown-data-v-65b04cc4 {
     0% {
         transform: scale(1.5);
         opacity: 0;
@@ -12808,7 +12808,7 @@ ul li .ability[data-v-7d0ee60b] {
     }
 }
 
-@-webkit-keyframes countdown-go-data-v-61c04ab4 {
+@-webkit-keyframes countdown-go-data-v-65b04cc4 {
     0% {
         transform: scale(1.5);
         opacity: 0;
@@ -12834,7 +12834,7 @@ ul li .ability[data-v-7d0ee60b] {
     }
 }
 
-@keyframes countdown-go-data-v-61c04ab4 {
+@keyframes countdown-go-data-v-65b04cc4 {
     0% {
         transform: scale(1.5);
         opacity: 0;
@@ -12860,7 +12860,7 @@ ul li .ability[data-v-7d0ee60b] {
     }
 }
 
-.countdown[data-v-61c04ab4] {
+.countdown[data-v-65b04cc4] {
     display: flex;
     position: absolute;
     align-items: center;
@@ -12868,37 +12868,37 @@ ul li .ability[data-v-7d0ee60b] {
     pointer-events: none
 }
 
-.countdown audio[data-v-61c04ab4] {
+.countdown audio[data-v-65b04cc4] {
     height: 0;
     width: 0;
     visibility: hidden
 }
 
-.countdown span[data-v-61c04ab4] {
+.countdown span[data-v-65b04cc4] {
     position: absolute;
     font-size: 8em;
     font-weight: 700;
     opacity: 0
 }
 
-.countdown span[data-v-61c04ab4]:first-child {
-    -webkit-animation: countdown-data-v-61c04ab4 1.1s normal forwards;
-    animation: countdown-data-v-61c04ab4 1.1s normal forwards
+.countdown span[data-v-65b04cc4]:first-child {
+    -webkit-animation: countdown-data-v-65b04cc4 1.1s normal forwards;
+    animation: countdown-data-v-65b04cc4 1.1s normal forwards
 }
 
-.countdown span[data-v-61c04ab4]:nth-child(2) {
-    -webkit-animation: countdown-data-v-61c04ab4 1.1s 1s normal forwards;
-    animation: countdown-data-v-61c04ab4 1.1s 1s normal forwards
+.countdown span[data-v-65b04cc4]:nth-child(2) {
+    -webkit-animation: countdown-data-v-65b04cc4 1.1s 1s normal forwards;
+    animation: countdown-data-v-65b04cc4 1.1s 1s normal forwards
 }
 
-.countdown span[data-v-61c04ab4]:nth-child(3) {
-    -webkit-animation: countdown-data-v-61c04ab4 1.1s 2s normal forwards;
-    animation: countdown-data-v-61c04ab4 1.1s 2s normal forwards
+.countdown span[data-v-65b04cc4]:nth-child(3) {
+    -webkit-animation: countdown-data-v-65b04cc4 1.1s 2s normal forwards;
+    animation: countdown-data-v-65b04cc4 1.1s 2s normal forwards
 }
 
-.countdown span[data-v-61c04ab4]:nth-child(4) {
-    -webkit-animation: countdown-go-data-v-61c04ab4 1.1s 3s normal forwards;
-    animation: countdown-go-data-v-61c04ab4 1.1s 3s normal forwards
+.countdown span[data-v-65b04cc4]:nth-child(4) {
+    -webkit-animation: countdown-go-data-v-65b04cc4 1.1s 3s normal forwards;
+    animation: countdown-go-data-v-65b04cc4 1.1s 3s normal forwards
 }
 
 svg[data-v-1e202a64] {
