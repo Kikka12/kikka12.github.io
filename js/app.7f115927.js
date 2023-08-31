@@ -283,7 +283,7 @@
         e.exports = i.p + "img/fortuneteller.8af750ee.png"
     },
     "441d": function (e, t, i) {
-        e.exports = i.p + "img/custom.b25648d4.png"
+        e.exports = i.p + "img/custom.a69142c5.png"
     },
     "451a": function (e, t, i) {
         e.exports = i.p + "img/snv-minion.95728595.png"
@@ -327,6 +327,10 @@
     5626: function (e, t, i) {
         e.exports = i.p + "img/heretic.d1e16abc.png"
     },
+	6251: (e,t,i)=>{
+		"use strict";
+		e.exports = i.p + "img/highpriestess.bc9eba89.png"
+	},
     "56d7": function (e, t, i) {
         "use strict";
         i.r(t);
@@ -4338,6 +4342,7 @@
             "./harlot.png": "559e",
             "./hellslibrarian.png": "a367",
             "./heretic.png": "5626",
+            "./highpriestess.png": "468c",
             "./huntsman.png": "1923",
             "./imp.png": "3e70",
             "./innkeeper.png": "663c",
@@ -4561,7 +4566,7 @@
         e.exports = JSON.parse('{"a":"2.16.0"}')
     },
     "92d8": function (e, t, i) {
-        e.exports = i.p + "img/luf.625a8347.png"
+        e.exports = i.p + "img/luf.412493d4.png"
     },
     9639: function (e, t, i) {
         e.exports = i.p + "img/king.9d143aab.png"
@@ -4604,7 +4609,7 @@
     a7b6: function (e, t, i) {
         e.exports = i.p + "img/pixie.1a053a1b.png"
     },
-    a7b6: function (e, t, i) {
+    d3c8: function (e, t, i) {
         e.exports = i.p + "img/plaguedoctor.1d35ab35.png"
     },
     aa2d: function (e, t, i) {
@@ -4964,7 +4969,7 @@
         e.exports = i.p + "img/psychopath.b3538818.png"
     },
     fd83: function (e, t, i) {
-        e.exports = i.p + "img/custom.a69142c5.png"
+        e.exports = i.p + "img/custom.b25648d4.png"
     },
     ff40: function (e, t, i) {
         "use strict";
