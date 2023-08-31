@@ -266,7 +266,7 @@
                     attrs: {
                         id: "version"
                     }
-                }, [e._v("v" + e._s(e.appVersion) + " | clocktower.cc")])], 1)
+                }, [e._v("v" + e._s(e.appVersion) + " | Kikka12.github.io")])], 1)
             }
               , a = []
               , r = i(629)
