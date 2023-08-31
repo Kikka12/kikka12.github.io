@@ -283,7 +283,7 @@
         e.exports = i.p + "img/fortuneteller.8af750ee.png"
     },
     "441d": function (e, t, i) {
-        e.exports = i.p + "img/custom.a69142c5.png"
+        e.exports = i.p + "img/custom.b25648d4.png"
     },
     "451a": function (e, t, i) {
         e.exports = i.p + "img/snv-minion.95728595.png"
