@@ -12745,13 +12745,13 @@ ul li .ability[data-v-7d0ee60b] {
 }
 
 .arrows .nominator[data-v-65b04cc4]:before {
-    background-image: url(../img/clock-small.8fb03f70.png);
+    background-image: url(../img/clock-small.f6dd3d5b.png);
     -webkit-animation: arrow-ccw-data-v-65b04cc4 1s ease-out;
     animation: arrow-ccw-data-v-65b04cc4 1s ease-out
 }
 
 .arrows .nominee[data-v-65b04cc4]:before {
-    background-image: url(../img/clock-big.ca7ce535.png);
+    background-image: url(../img/clock-big.3a6a413c.png);
     -webkit-animation: arrow-cw-data-v-65b04cc4 1s ease-out;
     animation: arrow-cw-data-v-65b04cc4 1s ease-out
 }
@@ -13486,7 +13486,7 @@ video#background {
     width: 100%;
     padding-right: 2000px;
     height: 100%;
-    background: url(../img/clouds.8fb03f70.png) repeat;
+    background: url(../img/clouds.6b632eb1.png) repeat;
     background-size: 2000px auto;
     -webkit-animation: move-background 120s linear infinite;
     animation: move-background 120s linear infinite;
