@@ -4563,7 +4563,7 @@
         e.exports = i.p + "img/assassin.c58445a9.png"
     },
     9224: function (e) {
-        e.exports = JSON.parse('{"a":"2.16.0"}')
+        e.exports = JSON.parse('{"a":"1.1 | Mcfly28"}')
     },
     "92d8": function (e, t, i) {
         e.exports = i.p + "img/luf.412493d4.png"
