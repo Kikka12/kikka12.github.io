@@ -415,7 +415,8 @@
     "firstNightReminder": "",
     "otherNight": 9,
     "otherNightReminder": "The previously protected and drunk players lose those markers. The Innkeeper points to two players. Those players are protected. One is drunk.",
-    "reminders": ["Protected",
+    "reminders": ["Safe 1",
+		"Safe 2",
         "Drunk"],
     "setup": false,
     "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk."
@@ -442,7 +443,7 @@
     "firstNightReminder": "",
     "otherNight": 38,
     "otherNightReminder": "If the Gossip\u2019s public statement was true: Choose a player not protected from dying tonight. That player dies.",
-    "reminders": ["Dead"],
+    "reminders": ["Dead", "Correct"],
     "setup": false,
     "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies."
   },
@@ -873,7 +874,7 @@
     "firstNightReminder": "The Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
     "otherNight": 60,
     "otherNightReminder": "If the Seamstress has not yet used their ability: the Seamstress either shows a 'no' head signal, or points to two other players. If the Seamstress chose players , nod 'yes' or shake 'no' for whether they are of same alignment.",
-    "reminders": ["No ability"],
+    "reminders": ["No ability", "Yes", "No"],
     "setup": false,
     "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment."
   },
@@ -886,8 +887,8 @@
     "firstNightReminder": "The Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token and add the 'Is the Philosopher' reminder. If the character is in play, place the drunk marker by that player.",
     "otherNight": 2,
     "otherNightReminder": "If the Philosopher has not used their ability: the Philosopher either shows a 'no' head signal, or points to a good character on their sheet. If they chose a character: Swap the out-of-play character token with the Philosopher token and add the 'Is the Philosopher' reminder. If the character is in play, place the drunk marker by that player.",
-    "reminders": ["Drunk",
-        "Is the Philosopher"],
+    "reminders": ["Drunk"],
+	"remindersGlobal": ["Is the Philosopher"],
     "setup": false,
     "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk."
   },
@@ -1245,7 +1246,8 @@
     "firstNightReminder": "Choose a character type. Point to a player whose character is of that type. Place the Balloonist's Seen reminder next to that character.",
     "otherNight": 62,
     "otherNightReminder": "Choose a character type that does not yet have a Seen reminder next to a character of that type. Point to a player whose character is of that type, if there are any. Place the Balloonist's Seen reminder next to that character.",
-    "reminders": ["Seen Townsfolk",
+    "reminders": ["Seen",
+		"Seen Townsfolk",
         "Seen Outsider",
         "Seen Minion",
         "Seen Demon",
@@ -2159,4 +2161,3 @@
     "ability": "Once per day, you may choose to kill an alive neighbour, if your other alive neighbour agrees."
   }
 ]
-
